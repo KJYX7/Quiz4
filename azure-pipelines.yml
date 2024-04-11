@@ -1,0 +1,12 @@
+# Starter pipeline
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool:
+  name: Self-hosted  
+
+steps:
+- script: echo Hello, World! 
+  displayName: 'Run a one-line script'
